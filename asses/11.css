@@ -1,0 +1,114 @@
+:root {
+    --plyr-color-main:#118FBE;
+    --primary-color:#ef5b25;
+    /*--primary-color:#118FBE;*/
+    --secondary-color:#211e66;
+
+}
+.active {
+    color: var(--primary-color);
+}
+.border-3 {
+    border: 3px solid var(--primary-color);
+}
+.custom-img-size {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.custom-img-size-sm {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+}
+.blog-thmb > a img {
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+.team-box2 .action-btn {
+    background: #383838;
+    color: #FFF;
+    padding: 8px 13px;
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+    font-size: 16px;
+}
+
+.team-box2:hover .action-btn {
+    background: #FFF;
+    color: #383838;
+}
+
+.team-box2 .clickable-title:hover {
+    color: #fff;
+}
+
+.team-box2-sm {
+    padding: 15px;
+    border-color: #118fbe;
+}
+
+.custom-player {
+    text-align: center;
+}
+
+.custom-player button#play-audio-btn {
+    padding: 20px 30px;
+    background-image: -webkit-linear-gradient(-45deg,
+    transparent 33%, rgba(0, 0, 0, .1) 33%,
+    rgba(0, 0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top,
+        rgba(255, 255, 255, .25),
+        rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #118fbe, #2d4a6e);
+    border-radius: 10px;
+}
+
+.custom-player i {
+    font-size: 3.5em;
+    color: #ffffff;
+}
+
+.sound-player-progress {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 250px;
+    height: 20px;
+}
+
+.fixed-player {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: #FFF;
+    -webkit-box-shadow: 0 4px 16px 0 rgb(0 0 0 / 7%);
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 7%);
+}
+
+.green-audio-player {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+footer .text-primary {
+    color: var(--primary-color)!important;
+}
+footer .text-primary:hover {
+    color: var(--primary-color)!important;
+}
+
+.counter {
+    color: var(--primary-color);
+    margin-top: 6px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
